@@ -1,0 +1,1 @@
+<p class="direitos">NhamBurger - Este é um nome fictício, usado apenas para fins estudantis.</p>
