@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/form-cadastro.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <title>NhamBurguer</title>
 </head>
 <body>
@@ -24,25 +24,21 @@
     
     <div id="conteudo">
         <div id="box_form">
-            <h1 class="titulo">Cadastre-se</h1>
-            <form action="cadastro.php" method="POST" enctype="multipart/form-data">
-                <label class="legenda">Nome:</label>
-                <input type="text" name="nome" class="campos_cad">
+            <h1 class="titulo">Entrar</h1>
+            <form action="logar.php" method="POST" enctype="multipart/form-data">
                 
                 <label class="legenda">E-mail:</label>
-                <input type="email" name="email" class="campos_cad">
+                <input type="email" name="email" class="campos_log">
                 
                 <label class="legenda">Senha:</label>
-                <input type="password" name="senha" class="campos_cad">
+                <input type="password" name="senha" class="campos_log">
                 
-                <label class="legenda">Digite novamente a senha:</label>
-                <input type="password" name="repitasenha" class="campos_cad">
-                
-                <input type="submit" value="Cadastrar" class="bt_cad">
-                
+                <input type="submit" value="Entrar" class="bt_log">
+              
             </form>
             
         </div>
+        
     </div>
     
     <div id="rodape">
